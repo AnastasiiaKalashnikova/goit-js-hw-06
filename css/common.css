@@ -24,6 +24,9 @@ button {
 }
 
 
-.item {
-  max-width: 300px;
+.gallery {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  list-style: none;
 }
