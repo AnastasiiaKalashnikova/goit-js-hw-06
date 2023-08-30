@@ -9,8 +9,8 @@ function onSubmit(evt) {
         return alert('Please fill in all fields of the form')
     } else {
         const userData = {
-        Email : email.value,
-        Password: password.value
+        email : email.value,
+        password: password.value
         }
         evt.currentTarget.reset()
     return console.log(userData)
